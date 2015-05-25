@@ -1,0 +1,109 @@
+body {
+	background-color: #ECECEC;
+	font-family: 'Oswald', sans-serif;
+	transition: all 1s;
+	/*text-align: center;*/
+	
+}
+header, footer, section {
+text-align: center;
+}
+ol {
+	background-color: white; 
+	border: 0.7px dashed;
+}
+header h1 {
+	/*text-decoration: underline;*/
+	transform: rotate(-7deg); 
+	text-shadow: 3px 3px black;
+	color :#F64747;
+	font-size: 60px;
+}
+section h1 {
+ /*transform: rotate(-3deg); */
+	text-shadow: 3px 3px black;
+	color :green;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+thead tr td {
+	color :red;
+}
+
+table {
+	margin: 0 auto;
+	background-color: white;
+	border: 1px dashed;
+}
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+input {
+	background-color: rgba(65, 131, 215, 0.25);
+	color : #2C3E50;
+	padding: 4px;
+	margin: 5px;
+	text-align: center;
+
+
+}
+form h3 {
+	display: inline-block;
+	cursor:copy;
+
+}
+section h1:active {
+	transition: all 1s;
+	transform: scale(2, 2); 
+}
+/*
+section h1:hover {
+	transition: all 1s;
+	transform: rotate(-7deg) ; 
+
+}*/
+form h3:last-of-type {
+	transform: rotate(-7deg) scale(1.5); 
+	text-shadow: 2px 2px black;
+	color :#F64747;
+	text-transform:uppercase;
+}
+img {
+	margin-top: 15px;
+	/*border-radius: 50%;*/
+	/*border: 1px solid;*/
+}
+header img {
+	border: 1px solid #F64747;
+	border-radius: 15px;
+
+}
+header img:active {
+	transition: all 1s;
+	transform: scale(1.5); 
+}
+input[type=submit]  {
+	border: 0;
+	font-weight: bold;
+	/*padding: 20px;*/
+	border-radius: 5px;
+	color: #F64747;
+	font-size: 20px;
+	background-color: transparent;	
+	/*box-shadow: 3px 3px black;*/
+}
+#bouton1:hover,
+#bouton1:focus,
+#releve:hover,
+#releve:focus
+{
+	transition: all 1s;
+	transform: scale(2, 2); 
+}
+/*#resultat1,
+#affichage 
+{
+	margin-top: 30px;
+	color: green;
+}*/
